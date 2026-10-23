@@ -6,10 +6,10 @@ public class javaIntToString {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         sc.close();
-        
+
         // Convert the integer to a String
         String s = Integer.toString(a);
-        
+
         // Challenge verification logic
         if (a == Integer.parseInt(s)) {
             System.out.println("Good job");
